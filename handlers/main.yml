@@ -5,3 +5,6 @@
   service:
     name: "{{ tftp_service }}"
     state: restarted
+
+- name: Save iptables rules
+  command: service iptables save
