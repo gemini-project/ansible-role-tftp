@@ -49,5 +49,5 @@ pxe_distro_name: coreos
 pxe_distro_release: alpha
 pxe_distro_kernel: coreos_production_pxe.vmlinuz
 pxe_distro_initrd: coreos_production_pxe_image.cpio.gz
-coreos_cloud_config_url: http://build2.ctocllab.cisco.com/coreos/cloudinit.yml
+coreos_cloud_config_url: http://{{ ansible_default_ipv4.address }}/coreos/cloudinit.yml
 coreos_autologin: true
