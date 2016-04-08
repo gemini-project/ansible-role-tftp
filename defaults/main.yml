@@ -37,7 +37,7 @@ tftp_server_foreman_support: false
 # Enable syslinux support through TFTP. Allows TFTP to host files specified
 # in syslinux_root_directory/syslinux_tftp_files
 # http://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project
-tftp_server_pxe_support: false
+tftp_server_pxe_support: true
 
 # Root directory for syslinux files
 syslinux_root_directory: /usr/share/syslinux
