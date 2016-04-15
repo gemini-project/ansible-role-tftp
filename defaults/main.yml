@@ -46,7 +46,7 @@ pxe_config_dir: "{{ tftp_root_directory }}/pxelinux.cfg"
 
 # Supported pxe image options: coreos
 pxe_distro_name: coreos
-pxe_distro_release: alpha
+pxe_distro_release: stable
 pxe_distro_kernel: coreos_production_pxe.vmlinuz
 pxe_distro_initrd: coreos_production_pxe_image.cpio.gz
 coreos_cloud_config_url: http://{{ ansible_default_ipv4.address }}/coreos/cloudinit.yml
